@@ -17,16 +17,8 @@ against the official Rules before publishing. Authoritative text: the Armenian T
 4. **Image rights:** see below.
 
 ## Detailed notes by chapter
-Each writer logged further problems, mostly explanations that misdescribe their pictures:
-
-- `data/review_notes/01-foundations.md`: 4 notes
-- `data/review_notes/02-lights-markings.md`: 8 notes
-- `data/review_notes/02-signs.md`: 12 notes
-- `data/review_notes/03-05-vehicles.md`: 17 notes
-- `data/review_notes/03-crossings-stopping.md`: 11 notes
-- `data/review_notes/03-intersections.md`: 6 notes
-- `data/review_notes/03-manoeuvres.md`: 9 notes
-- `data/review_notes/06-first-aid.md`: 26 notes
+Each writer logged further problems, mostly explanations that misdescribe their pictures, in
+`data/review_notes/`.
 
 ## Topics the questions don't cover
 These outline topics have no questions, so they are missing or appear only as general popups: medical fitness,

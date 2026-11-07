@@ -4,3 +4,6 @@ dist/
 .wrangler/
 src/content/docs/
 **/__pycache__/
+src/content/lessons/*/07-appendices/01-sign-gallery.md
+src/content/lessons/*/07-appendices/03-glossary.md
+src/content/lessons/*/07-appendices/04-question-index.md

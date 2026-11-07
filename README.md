@@ -19,9 +19,7 @@ npm run check    # validate the generated pages and dist/; run after build
 npm run preview  # serve dist/ locally
 npm run deploy   # build, check and publish to Cloudflare
 ```
-Generating the pages needs Python 3 with PyYAML. `authoring/tools/build_appendices.py` regenerates the
-gallery, glossary and question index in `src/content/lessons/`. `crop_signs.py` and `draw_signs.py` in the
-same folder regenerate signs, and need Pillow and numpy.
+Generating the pages needs Python 3 with PyYAML.
 
 ## Markup the site relies on
 - Lessons use raw `<details class="extra">` (popups) and `<details class="answer">` (hidden answers), with

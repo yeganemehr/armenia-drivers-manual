@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "book": "python3 authoring/tools/build.py",
+    "book": "python3 authoring/tools/build_appendices.py && python3 authoring/tools/build.py",
     "dev": "npm run book && astro dev",
     "build": "npm run book && astro build",
     "preview": "astro preview",

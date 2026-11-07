@@ -23,6 +23,7 @@ const bookMarkdown = {
 };
 
 export default defineConfig({
+	site: 'https://armenia-drivers-manual.ygnmehr.workers.dev',
 	markdown: { processor: satteri({ mdastPlugins: [bookMarkdown] }) },
 	redirects: { '/': '/en/' },
 	integrations: [

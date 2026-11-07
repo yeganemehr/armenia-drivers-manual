@@ -45,12 +45,3 @@ for more. Tables and short lists beat long paragraphs.
   They are different places with different limits.
 - Keep the same headings, images, callouts and popups in the same order, so the two files match exactly.
 - Keep Latin digits, as the practice questions do. Sign names should match the Persian practice text.
-
-## Working rules
-- Only create files for your own sections, your diagrams and your notes file. Don't edit `outline.yaml`,
-  `data/*.csv`, `REVIEW.md`, `src/content/assets/CREDITS.md`, `tools/`, `res/` or other writers' files.
-- Use your own scratch folder, given in your task. Others are working at the same time.
-- Wrap every potentially slow command in `timeout`, 60 seconds at most.
-- To check your work: `timeout 60 python3 tools/build.py; timeout 60 python3 tools/check.py | grep '<your chapter>'`.
-  Fix every failure in your own files. Ignore failures in other chapters: they are unfinished.
-- Keep your final report short: sections finished, and anything you could not complete.
