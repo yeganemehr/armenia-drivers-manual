@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-label="Four steps rising from left to right, each topped by a speed limit sign: 20, 60, 90 and 110">
+  <rect width="640" height="240" fill="#f4f6f8"/>
+  <g fill="#8d99a6">
+    <rect x="30" y="190" width="145" height="30"/>
+    <rect x="175" y="150" width="145" height="70"/>
+    <rect x="320" y="110" width="145" height="110"/>
+    <rect x="465" y="70" width="145" height="150"/>
+  </g>
+  <g stroke="#fff" stroke-width="3" stroke-dasharray="14 12">
+    <line x1="30" y1="205" x2="175" y2="205"/>
+    <line x1="175" y1="185" x2="320" y2="185"/>
+    <line x1="320" y1="165" x2="465" y2="165"/>
+    <line x1="465" y1="145" x2="610" y2="145"/>
+  </g>
+  <g fill="#fff" stroke="#d3202a" stroke-width="7">
+    <circle cx="102" cy="150" r="29"/>
+    <circle cx="247" cy="110" r="29"/>
+    <circle cx="392" cy="70" r="29"/>
+    <circle cx="537" cy="40" r="29"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" text-anchor="middle" fill="#111">
+    <text x="102" y="159">20</text>
+    <text x="247" y="119">60</text>
+    <text x="392" y="79">90</text>
+    <text x="537" y="49" font-size="21">110</text>
+  </g>
+</svg>

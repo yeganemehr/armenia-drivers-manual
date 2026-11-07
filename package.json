@@ -1,0 +1,23 @@
+{
+  "name": "armenia-drivers-manual",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "book": "python3 authoring/tools/build.py",
+    "dev": "npm run book && astro dev",
+    "build": "npm run book && astro build",
+    "preview": "astro preview",
+    "check": "python3 authoring/tools/check.py --final && python3 authoring/tools/check_site.py",
+    "deploy": "npm run build && npm run check && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.158.0"
+  },
+  "dependencies": {
+    "@astrojs/markdown-satteri": "^0.4.7",
+    "@astrojs/starlight": "^0.42.9",
+    "astro": "^7.4.1",
+    "sharp": "^0.35.5",
+    "yaml": "^2.9.1"
+  }
+}

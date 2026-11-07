@@ -1,0 +1,8 @@
+- #215: explanation says the yellow and white cars both face the officer's chest; picture puts one at his chest and one at his back. Answer holds.
+- #216: explanation reads the signal as right arm forward with the green car at his chest; picture shows both arms out, with the red and green cars at his sides. Answer holds either way, but under the arms-out rule.
+- #302: explanation says arms lowered and driver on the chest side; picture shows the officer's back to the driver with one arm out. Answer holds: movement from his back is prohibited too.
+- #295: uses marking 1.18 to narrow what the officer's signal permits, the same conflict with point 20 as #289 in REVIEW.md. Left out of the lessons; the Traffic Officers lesson teaches point 20 only.
+- #442, #453: explanations say marking 1.17 is yellow; both pictures show it red. The lesson gives no colour in the text. Check against the Rules.
+- #208: the quoted point 16 says pedestrians cross on the officer's right and left sides for arms out, which needs checking; #273 has them crossing behind his back for right arm forward. The lesson leaves out the arms-out pedestrian rule.
+- #84: explanation calls option 2 an "approach (arrow-shaped) marking" but gives no number; the picture is a triangle of chevrons. Left out of the lesson.
+- #527: its Persian explanation in the database contains the word STOP, so tools/check.py fails on the built Persian page. The lesson source has no English. Needs a data or checker decision.

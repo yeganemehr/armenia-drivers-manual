@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 270" role="img" aria-label="A casualty lying on one side, seen from above. Mark 1 is the head tilted back, mark 2 is the upper arm with the hand under the cheek, and mark 3 is the bent knee resting on the ground">
+  <rect width="640" height="270" fill="#d9dee3"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M345,110 L580,112" stroke="#35557f" stroke-width="30"/>
+    <path d="M170,105 L345,110" stroke="#4a6fa5" stroke-width="66"/>
+    <path d="M345,118 L440,206 L510,136" stroke="#6f93c4" stroke-width="32"/>
+    <path d="M178,128 L200,196 L104,150" stroke="#6f93c4" stroke-width="24"/>
+  </g>
+  <path d="M60,92 C58,66 88,48 112,62 C134,74 140,102 122,118 C108,132 90,132 76,122 L56,126 L66,108 Z" fill="#e0b594"/>
+  <circle cx="102" cy="144" r="14" fill="#e0b594"/>
+  <g stroke="#1f6fb2" stroke-width="3">
+    <line x1="80" y1="62" x2="56" y2="34"/>
+    <line x1="200" y1="196" x2="230" y2="236"/>
+    <line x1="440" y1="214" x2="470" y2="236"/>
+  </g>
+  <g fill="#1f6fb2"><circle cx="46" cy="24" r="15"/><circle cx="240" cy="246" r="15"/><circle cx="482" cy="244" r="15"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" text-anchor="middle" fill="#fff">
+    <text x="46" y="30">1</text><text x="240" y="252">2</text><text x="482" y="250">3</text>
+  </g>
+</svg>

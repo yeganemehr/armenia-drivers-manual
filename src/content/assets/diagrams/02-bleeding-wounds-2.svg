@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 230" role="img" aria-label="Three casualties. Figure 1 is half lying with head and upper body raised on a support. Figure 2 is sitting and leaning towards the injured side of the chest, which is marked red. Figure 3 is lying on the back with the knees bent and the abdomen marked red">
+  <rect width="640" height="230" fill="#f4f6f8"/>
+  <rect y="200" width="640" height="30" fill="#8d99a6"/>
+  <g stroke="#fff" stroke-width="4"><line x1="213" y1="0" x2="213" y2="230"/><line x1="427" y1="0" x2="427" y2="230"/></g>
+  <path d="M28,200 L28,112 L122,200 Z" fill="#b6bec7"/>
+  <rect x="245" y="176" width="60" height="24" rx="4" fill="#b6bec7"/>
+  <g fill="none" stroke="#4a6fa5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58,118 L112,186 L196,190"/>
+    <path d="M340,178 L320,110"/>
+    <path d="M470,188 L540,188"/>
+  </g>
+  <g fill="none" stroke="#4a6fa5" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M72,132 L104,150 L136,160"/>
+    <path d="M336,184 L386,192 M336,184 L290,194"/>
+    <path d="M326,118 L306,146 L290,170"/>
+    <path d="M326,118 L360,146"/>
+    <path d="M540,188 L574,136 L606,192"/>
+    <path d="M476,180 L504,162"/>
+  </g>
+  <circle cx="46" cy="96" r="17" fill="#e0b594"/>
+  <circle cx="313" cy="86" r="17" fill="#e0b594"/>
+  <circle cx="450" cy="182" r="17" fill="#e0b594"/>
+  <circle cx="314" cy="128" r="9" fill="#d3202a"/>
+  <circle cx="524" cy="184" r="9" fill="#d3202a"/>
+  <circle cx="44" cy="84" r="6" fill="#d3202a"/>
+  <g fill="#1f6fb2"><circle cx="190" cy="28" r="15"/><circle cx="403" cy="28" r="15"/><circle cx="616" cy="28" r="15"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" text-anchor="middle" fill="#fff">
+    <text x="190" y="34">1</text><text x="403" y="34">2</text><text x="616" y="34">3</text>
+  </g>
+</svg>

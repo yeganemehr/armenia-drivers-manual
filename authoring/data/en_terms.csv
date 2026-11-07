@@ -1,0 +1,13 @@
+find,replace,why
+\bsub-?items?\b,sub-point,one citation word
+\bSub-?items?\b,Sub-point,one citation word
+\bsubpoint\b,sub-point,one citation word
+\bItems (?=\d),points ,one citation word
+\bItem (?=\d),point ,one citation word
+\bitems (?=\d),points ,one citation word
+\bitem (?=\d),point ,one citation word
+§\s*(?=\d),point ,one citation word
+\bhighways\b,motorways,one term for sign 5.1
+\bhighway\b,motorway,one term for sign 5.1
+\bHighways\b,Motorways,one term for sign 5.1
+\bHighway\b,Motorway,one term for sign 5.1

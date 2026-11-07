@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 190" role="img" aria-label="Five numbered tiles in a row: a traffic light, a yellow diamond priority sign, tram rails, a car with an arrow pointing to a car on its right, and a left-turning car facing an oncoming car">
+  <rect width="640" height="190" fill="#f4f6f8"/>
+  <g fill="#fff" stroke="#c9d1d9" stroke-width="2">
+    <rect x="16" y="16" width="112" height="158" rx="10"/>
+    <rect x="138" y="16" width="112" height="158" rx="10"/>
+    <rect x="260" y="16" width="112" height="158" rx="10"/>
+    <rect x="382" y="16" width="112" height="158" rx="10"/>
+    <rect x="504" y="16" width="120" height="158" rx="10"/>
+  </g>
+  <!-- 1 traffic light -->
+  <rect x="53" y="62" width="38" height="98" rx="7" fill="#37424d"/>
+  <circle cx="72" cy="80" r="11" fill="#d3202a"/>
+  <circle cx="72" cy="111" r="11" fill="#f2b705"/>
+  <circle cx="72" cy="142" r="11" fill="#2e9e4f"/>
+  <!-- 2 main road sign -->
+  <g transform="translate(194 110)">
+    <rect x="-32" y="-32" width="64" height="64" transform="rotate(45)" fill="#fff" stroke="#37424d" stroke-width="3"/>
+    <rect x="-20" y="-20" width="40" height="40" transform="rotate(45)" fill="#f7d117"/>
+  </g>
+  <!-- 3 rails -->
+  <g stroke="#37424d" stroke-width="5">
+    <line x1="298" y1="58" x2="298" y2="166"/>
+    <line x1="334" y1="58" x2="334" y2="166"/>
+  </g>
+  <g stroke="#8d99a6" stroke-width="6">
+    <line x1="286" y1="72" x2="346" y2="72"/>
+    <line x1="286" y1="92" x2="346" y2="92"/>
+    <line x1="286" y1="112" x2="346" y2="112"/>
+    <line x1="286" y1="132" x2="346" y2="132"/>
+    <line x1="286" y1="152" x2="346" y2="152"/>
+  </g>
+  <!-- 4 vehicle on the right -->
+  <rect x="408" y="104" width="26" height="46" rx="6" fill="#2f6fd0"/>
+  <rect x="456" y="72" width="26" height="46" rx="6" fill="#d3202a" transform="rotate(90 469 95)"/>
+  <path d="M421 98 V84 H440" fill="none" stroke="#37424d" stroke-width="5" stroke-dasharray="7 5"/>
+  <!-- 5 left turn against oncoming -->
+  <rect x="566" y="118" width="26" height="46" rx="6" fill="#2f6fd0"/>
+  <path d="M579 112 Q579 84 544 84" fill="none" stroke="#37424d" stroke-width="5"/>
+  <path d="M546 72 L530 84 L546 96 Z" fill="#37424d"/>
+  <rect x="520" y="110" width="26" height="46" rx="6" fill="#2e9e4f" transform="rotate(180 533 133)"/>
+  <!-- numbers -->
+  <g fill="#37424d">
+    <circle cx="72" cy="38" r="15"/>
+    <circle cx="194" cy="38" r="15"/>
+    <circle cx="316" cy="38" r="15"/>
+    <circle cx="438" cy="38" r="15"/>
+    <circle cx="564" cy="38" r="15"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" text-anchor="middle" fill="#fff">
+    <text x="72" y="45">1</text>
+    <text x="194" y="45">2</text>
+    <text x="316" y="45">3</text>
+    <text x="438" y="45">4</text>
+    <text x="564" y="45">5</text>
+  </g>
+</svg>

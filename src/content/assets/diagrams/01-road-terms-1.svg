@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="A road seen from above, numbered 1 to 6: the whole road, two carriageways with cars on them, a green dividing strip between them, lanes marked by a dashed line, shoulders along the outer edges, and a pavement">
+  <rect width="640" height="320" fill="#f4f6f8"/>
+  <rect x="0" y="16" width="560" height="26" fill="#c9ced4"/>
+  <rect x="0" y="42" width="560" height="10" fill="#6fae5f"/>
+  <rect x="0" y="52" width="560" height="22" fill="#d9c79a"/>
+  <rect x="0" y="74" width="560" height="74" fill="#5b6570"/>
+  <rect x="0" y="148" width="560" height="26" fill="#6fae5f"/>
+  <rect x="0" y="174" width="560" height="74" fill="#5b6570"/>
+  <rect x="0" y="248" width="560" height="22" fill="#d9c79a"/>
+  <rect x="0" y="270" width="560" height="34" fill="#6fae5f"/>
+  <g stroke="#fff" stroke-width="3">
+    <line x1="0" y1="146" x2="560" y2="146"/>
+    <line x1="0" y1="176" x2="560" y2="176"/>
+    <line x1="0" y1="111" x2="560" y2="111" stroke-dasharray="22 16"/>
+    <line x1="0" y1="211" x2="560" y2="211" stroke-dasharray="22 16"/>
+  </g>
+  <g>
+    <rect x="300" y="82" width="64" height="24" rx="7" fill="#fff"/>
+    <rect x="312" y="86" width="16" height="16" rx="2" fill="#5b6570"/>
+    <rect x="150" y="218" width="64" height="24" rx="7" fill="#2f6fd0"/>
+    <rect x="186" y="222" width="16" height="16" rx="2" fill="#cfe0f7"/>
+    <rect x="360" y="182" width="64" height="24" rx="7" fill="#e0a530"/>
+    <rect x="396" y="186" width="16" height="16" rx="2" fill="#fff"/>
+  </g>
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M582 16 H594 V304 H582"/>
+  </g>
+  <g fill="#fff" stroke="#111" stroke-width="2.5">
+    <circle cx="612" cy="160" r="15"/>
+    <circle cx="60" cy="111" r="15"/>
+    <circle cx="500" cy="161" r="15"/>
+    <circle cx="500" cy="229" r="15"/>
+    <circle cx="60" cy="259" r="15"/>
+    <circle cx="60" cy="29" r="15"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" text-anchor="middle" fill="#111">
+    <text x="612" y="167">1</text>
+    <text x="60" y="118">2</text>
+    <text x="500" y="168">3</text>
+    <text x="500" y="236">4</text>
+    <text x="60" y="266">5</text>
+    <text x="60" y="36">6</text>
+  </g>
+</svg>

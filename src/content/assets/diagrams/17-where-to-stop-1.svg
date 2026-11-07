@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 190" role="img" aria-label="Two time bars. The first changes colour at 5 minutes. The second keeps one colour the whole way">
+<rect width="640" height="190" fill="#f4f6f8"/>
+<g font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#111">
+<text x="34" y="66" font-size="24" text-anchor="middle">1</text><text x="34" y="156" font-size="24" text-anchor="middle">2</text>
+<rect x="70" y="40" width="190" height="40" fill="#2e9e5b"/><polygon points="260,40 585,40 615,60 585,80 260,80" fill="#1f6fd0"/>
+<polygon points="70,130 585,130 615,150 585,170 70,170" fill="#2e9e5b"/>
+<line x1="70" y1="30" x2="70" y2="90" stroke="#111" stroke-width="3"/><line x1="260" y1="30" x2="260" y2="90" stroke="#111" stroke-width="3"/><line x1="70" y1="120" x2="70" y2="180" stroke="#111" stroke-width="3"/><line x1="260" y1="120" x2="260" y2="180" stroke="#111" stroke-width="3"/>
+<text x="70" y="24" font-size="20" text-anchor="middle">0</text><text x="260" y="24" font-size="20" text-anchor="middle">5</text><text x="70" y="114" font-size="20" text-anchor="middle">0</text><text x="260" y="114" font-size="20" text-anchor="middle">5</text>
+</g></svg>

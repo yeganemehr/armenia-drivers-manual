@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="A crossroads seen from above with a shaded area where the roads meet, bounded by dashed lines between the points where the kerbs start to curve, numbered 1 and 2, and an exit from a car park onto the road further along, numbered 3">
+  <rect width="640" height="300" fill="#6fae5f"/>
+  <path d="M0 110 H180 Q200 110 200 90 V0 H280 V90 Q280 110 300 110 H640 V190 H300 Q280 190 280 210 V300 H200 V210 Q200 190 180 190 H0 Z" fill="#5b6570"/>
+  <rect x="470" y="20" width="130" height="66" fill="#c9ced4"/>
+  <rect x="520" y="86" width="40" height="24" fill="#5b6570"/>
+  <rect x="490" y="36" width="24" height="42" rx="6" fill="#e0a530"/>
+  <rect x="556" y="36" width="24" height="42" rx="6" fill="#fff"/>
+  <path d="M180 110 Q200 110 200 90 H280 Q280 110 300 110 V190 Q280 190 280 210 H200 Q200 190 180 190 Z" fill="#f2d16b" fill-opacity=".75"/>
+  <g stroke="#111" stroke-width="3" stroke-dasharray="9 7" fill="none">
+    <line x1="180" y1="110" x2="180" y2="190"/>
+    <line x1="300" y1="110" x2="300" y2="190"/>
+    <line x1="200" y1="90" x2="280" y2="90"/>
+    <line x1="200" y1="210" x2="280" y2="210"/>
+  </g>
+  <g fill="#d3202a">
+    <circle cx="180" cy="110" r="6"/><circle cx="300" cy="110" r="6"/>
+    <circle cx="180" cy="190" r="6"/><circle cx="300" cy="190" r="6"/>
+    <circle cx="200" cy="90" r="6"/><circle cx="280" cy="90" r="6"/>
+    <circle cx="200" cy="210" r="6"/><circle cx="280" cy="210" r="6"/>
+  </g>
+  <g stroke="#fff" stroke-width="3" stroke-dasharray="20 16">
+    <line x1="0" y1="150" x2="170" y2="150"/>
+    <line x1="310" y1="150" x2="640" y2="150"/>
+    <line x1="240" y1="0" x2="240" y2="80"/>
+    <line x1="240" y1="220" x2="240" y2="300"/>
+  </g>
+  <g fill="#fff" stroke="#111" stroke-width="2.5">
+    <circle cx="240" cy="150" r="15"/>
+    <circle cx="150" cy="84" r="15"/>
+    <circle cx="540" cy="58" r="15"/>
+  </g>
+  <line x1="162" y1="93" x2="175" y2="105" stroke="#111" stroke-width="2.5"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" text-anchor="middle" fill="#111">
+    <text x="240" y="157">1</text>
+    <text x="150" y="91">2</text>
+    <text x="540" y="65">3</text>
+  </g>
+</svg>

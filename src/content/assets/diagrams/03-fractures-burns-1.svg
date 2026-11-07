@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="Two front views. On the left an upper body with one arm bent at the elbow, the forearm resting on a triangular scarf, mark 1, and tied to the trunk by a band, mark 2. On the right two legs side by side with a soft cloth between them, mark 3, tied together by bands, mark 4">
+  <rect width="640" height="300" fill="#f4f6f8"/>
+  <line x1="320" y1="0" x2="320" y2="300" stroke="#fff" stroke-width="4"/>
+  <circle cx="150" cy="46" r="26" fill="#e0b594"/>
+  <rect x="100" y="78" width="100" height="196" rx="20" fill="#4a6fa5"/>
+  <path d="M104,92 L84,160 L80,250" fill="none" stroke="#4a6fa5" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M196,92 L228,158 L128,150" fill="none" stroke="#6f93c4" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="120" cy="148" r="13" fill="#e0b594"/>
+  <path d="M112,92 L244,172 L104,178 Z" fill="#f2b632" fill-opacity=".85"/>
+  <path d="M196,92 L228,158 L128,150" fill="none" stroke="#6f93c4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="100" y="120" width="136" height="14" rx="3" fill="#2b2f36"/>
+  <rect x="400" y="20" width="150" height="40" rx="14" fill="#4a6fa5"/>
+  <g fill="none" stroke="#4a6fa5" stroke-width="50" stroke-linecap="round">
+    <line x1="430" y1="40" x2="436" y2="262"/>
+    <line x1="520" y1="40" x2="514" y2="262"/>
+  </g>
+  <rect x="462" y="62" width="26" height="200" rx="8" fill="#f2b632"/>
+  <g fill="#2b2f36"><rect x="394" y="88" width="162" height="14" rx="3"/><rect x="396" y="160" width="158" height="14" rx="3"/><rect x="400" y="232" width="150" height="14" rx="3"/></g>
+  <g stroke="#1f6fb2" stroke-width="3">
+    <line x1="236" y1="127" x2="266" y2="84"/>
+    <line x1="226" y1="170" x2="266" y2="204"/>
+    <line x1="475" y1="135" x2="590" y2="135" stroke="#1f6fb2"/>
+    <line x1="554" y1="238" x2="590" y2="238"/>
+  </g>
+  <g fill="#1f6fb2"><circle cx="280" cy="74" r="15"/><circle cx="280" cy="204" r="15"/><circle cx="604" cy="135" r="15"/><circle cx="604" cy="238" r="15"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" text-anchor="middle" fill="#fff">
+    <text x="280" y="80">2</text><text x="280" y="210">1</text><text x="604" y="141">3</text><text x="604" y="244">4</text>
+  </g>
+</svg>

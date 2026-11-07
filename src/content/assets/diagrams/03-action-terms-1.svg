@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 372" role="img" aria-label="Three two-lane roads seen from above, numbered 1 to 3. In 1 a blue car moves ahead of a white car and stays in its own lane. In 2 a blue car leaves its lane to move ahead of a moving truck. In 3 a blue car steers around a stationary obstacle in its lane">
+  <rect width="640" height="372" fill="#f4f6f8"/>
+  <g fill="#5b6570"><rect x="60" y="12" width="580" height="104"/><rect x="60" y="134" width="580" height="104"/><rect x="60" y="256" width="580" height="104"/></g>
+  <g stroke="#fff" stroke-width="3" stroke-dasharray="22 16">
+    <line x1="60" y1="64" x2="640" y2="64"/><line x1="60" y1="186" x2="640" y2="186"/><line x1="60" y1="308" x2="640" y2="308"/>
+  </g>
+  <g fill="none" stroke="#f2d16b" stroke-width="5" stroke-linecap="round">
+    <path d="M178 38 H470"/>
+    <path d="M178 212 C240 212 250 160 310 160 H440 C500 160 510 212 570 212"/>
+    <path d="M178 334 C240 334 260 282 330 282 C400 282 420 334 480 334"/>
+  </g>
+  <g fill="#f2d16b">
+    <path d="M470 28 L492 38 L470 48 Z"/>
+    <path d="M566 202 L590 212 L566 222 Z"/>
+    <path d="M478 324 L500 334 L478 344 Z"/>
+  </g>
+  <g fill="#2f6fd0">
+    <rect x="108" y="26" width="66" height="24" rx="7"/><rect x="108" y="200" width="66" height="24" rx="7"/><rect x="108" y="322" width="66" height="24" rx="7"/>
+  </g>
+  <g fill="#cfe0f7">
+    <rect x="146" y="30" width="16" height="16" rx="2"/><rect x="146" y="204" width="16" height="16" rx="2"/><rect x="146" y="326" width="16" height="16" rx="2"/>
+  </g>
+  <rect x="300" y="78" width="66" height="24" rx="7" fill="#fff"/><rect x="338" y="82" width="16" height="16" rx="2" fill="#5b6570"/>
+  <path d="M380 90 h26 m-8 -7 l8 7 l-8 7" stroke="#fff" stroke-width="3" fill="none"/>
+  <rect x="300" y="198" width="92" height="28" rx="3" fill="#e0a530"/><rect x="392" y="200" width="26" height="24" rx="4" fill="#c8c8c8"/>
+  <path d="M430 212 h26 m-8 -7 l8 7 l-8 7" stroke="#fff" stroke-width="3" fill="none"/>
+  <path d="M312 334 L330 306 L348 334 Z" fill="#fff" stroke="#d3202a" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="324" y="336" width="12" height="6" fill="#d3202a"/><rect x="296" y="340" width="68" height="8" fill="#d3202a"/>
+  <g fill="#fff" stroke="#111" stroke-width="2.5">
+    <circle cx="28" cy="64" r="16"/><circle cx="28" cy="186" r="16"/><circle cx="28" cy="308" r="16"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" text-anchor="middle" fill="#111">
+    <text x="28" y="71">1</text><text x="28" y="193">2</text><text x="28" y="315">3</text>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-label="A car towing a small trailer, with a badge on the trailer showing 750">
+  <rect width="640" height="200" fill="#f4f6f8"/>
+  <rect y="158" width="640" height="42" fill="#8d99a6"/>
+  <g transform="translate(250 0)">
+    <path d="M78 142 V112 Q78 104 88 102 L114 100 L138 76 H192 L220 100 L240 104 Q248 106 248 114 V142 Z" fill="#2f6fd0"/>
+    <path d="M122 100 L142 82 H162 V100 Z M168 82 H189 L208 100 H168 Z" fill="#dbeafe"/>
+    <circle cx="114" cy="142" r="16" fill="#222"/><circle cx="214" cy="142" r="16" fill="#222"/>
+    <circle cx="114" cy="142" r="6" fill="#ccc"/><circle cx="214" cy="142" r="6" fill="#ccc"/>
+  </g>
+  <rect x="150" y="124" width="180" height="7" fill="#222"/>
+  <rect x="120" y="92" width="150" height="46" rx="4" fill="#e0a530"/>
+  <circle cx="195" cy="144" r="15" fill="#222"/><circle cx="195" cy="144" r="6" fill="#ccc"/>
+  <circle cx="195" cy="52" r="33" fill="#fff" stroke="#d3202a" stroke-width="6"/>
+  <text x="195" y="61" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" text-anchor="middle" fill="#111">750</text>
+</svg>

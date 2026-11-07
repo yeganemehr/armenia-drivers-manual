@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 250" role="img" aria-label="Two side views of the front of a low car. On the left an adult stands at the bumper, with marks 1 at the lower leg and 2 at the head. On the right a small child stands at the bumper, with marks 3 at the pelvis and 4 at the chest">
+  <rect width="640" height="250" fill="#f4f6f8"/>
+  <rect y="230" width="640" height="20" fill="#8d99a6"/>
+  <line x1="320" y1="0" x2="320" y2="250" stroke="#fff" stroke-width="4"/>
+  <defs>
+    <g id="car">
+      <path d="M0,90 L40,90 L85,135 L185,155 Q195,158 195,170 L195,195 Q195,205 185,205 L0,205 Z" fill="#4a6fa5"/>
+      <path d="M0,100 L36,100 L70,133 L0,133 Z" fill="#cfe0ef"/>
+      <circle cx="125" cy="200" r="30" fill="#2b2f36"/>
+      <circle cx="125" cy="200" r="13" fill="#b6bec7"/>
+      <rect x="186" y="170" width="14" height="20" rx="3" fill="#2b2f36"/>
+    </g>
+  </defs>
+  <use xlink:href="#car"/>
+  <use xlink:href="#car" x="320"/>
+  <g fill="none" stroke="#5b6672" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M225,88 L225,150 L216,228 M225,150 L234,228 M225,96 L213,140 M225,96 L237,140"/>
+    <path d="M547,156 L547,192 L541,228 M547,192 L553,228 M547,160 L538,186 M547,160 L556,186" stroke-width="8"/>
+  </g>
+  <circle cx="225" cy="72" r="14" fill="#e0b594"/>
+  <circle cx="547" cy="142" r="12" fill="#e0b594"/>
+  <g stroke="#d3202a" stroke-width="3">
+    <line x1="228" y1="190" x2="268" y2="190"/>
+    <line x1="238" y1="72" x2="268" y2="72"/>
+    <line x1="552" y1="190" x2="590" y2="190"/>
+    <line x1="552" y1="166" x2="590" y2="152"/>
+  </g>
+  <g fill="#d3202a">
+    <circle cx="282" cy="190" r="15"/><circle cx="282" cy="72" r="15"/>
+    <circle cx="604" cy="190" r="15"/><circle cx="604" cy="147" r="15"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" text-anchor="middle" fill="#fff">
+    <text x="282" y="196">1</text><text x="282" y="78">2</text>
+    <text x="604" y="196">3</text><text x="604" y="153">4</text>
+  </g>
+</svg>

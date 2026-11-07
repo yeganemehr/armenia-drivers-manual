@@ -1,0 +1,6 @@
+- #375: explanation says the bus and the passenger car are both on secondary roads, but plate 8.13 in the picture bends left, which puts the car on your left on the main road. The answer "No one" still holds under points 97 and 98.
+- #308: explanation cites point 96 for the tram's priority over the red car on the secondary road; #357 reaches the same result under points 97, 98 and 100.
+- #308, #319, #730: assigned to 10-main-roads, but all three pictures show plate 8.13, which is taught in 11-main-road-turns. The lesson points ahead rather than teaching the plate twice.
+- #384: explanation says the car on the right does not cross your left turn; #422, the same situation, reasons that the car is on a secondary road. Answer unaffected. The question's "second crossing" could not be matched to the picture.
+- #303: explanation says the trolleybus turns right and the car goes straight along the main road. The arrows in the picture could not be matched to that wording, so the picture is not used in the lesson.
+- #760: explanation says the car comes out of an earth track; no track is clearly visible in the picture.

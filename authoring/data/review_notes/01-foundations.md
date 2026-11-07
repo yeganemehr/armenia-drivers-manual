@@ -1,0 +1,10 @@
+#151 vs #192: #151's explanation files a traffic jam under "an obstacle appearing on the road"; #192 says a car stopped in a jam is not an obstacle. The lesson teaches both answers and doesn't call a jam an obstacle.
+#196 vs #201: nearly the same junction picture. #196's explanation counts two carriageways from the double solid line; #201 counts only the green dividing strip, and counting the double line there too would give four, which #201 marks wrong. In #196's picture the green strip is on the right-hand arm, which may be the true reason. The lesson teaches the green strip only.
+#153 vs #1013: #153 calls "more than 5 minutes, if not connected with boarding, alighting, loading or unloading" the definition of parking; #1013 marks nearly the same wording wrong as too narrow. #182 repeats #153's short form. The lesson uses #1013's full wording.
+#169: the options in English, Russian and Armenian say the motor applies "if the speed exceeds 25 km/h", which reads as a garbled version of a motor that cuts out above 25 km/h. The lesson gives only the 0.25 kW limit and leaves out the 25 km/h detail. Check against Article 2.
+#160: the question counts 15 days from "acquiring" the vehicle; the explanation counts from the day the transaction is signed. Check against Article 13.
+#192 and #900: both cite sub-point 12 of point 3, for "obstacle" and for "bypassing". The lesson cites point 3 only.
+Sign names: Persian practice text uses «جاده اصلی» and «جاده فرعی» in sign names where the glossary has راه اصلی and راه فرعی. Lessons keep the practice wording inside sign names and the glossary term elsewhere.
+Traffic regulator: practice text in English says "traffic controller"; the glossary has "traffic regulator". The lesson gives both once.
+Scope of 04-licences and 05-duties-documents in outline.yaml: no question covers medical fitness, insurance, obeying officers, penalties, or the general duties of passengers and pedestrians, so these are left out.
+Diagrams: 7 new files in assets/diagrams/ are covered by the blanket line in assets/CREDITS.md, so no entry was added.

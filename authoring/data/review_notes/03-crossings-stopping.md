@@ -1,0 +1,11 @@
+- #509 vs #521: #509 clears the motorcycle at the kerb although the picture's 3 m strip to the solid line is the same layout #521 fails for both car and motorcycle (#521: "applies to any standing vehicle"). The lesson teaches the 3 m rule for every vehicle, so a reader will want "Both drivers" on #509 where the key says only the passenger car.
+- #518: explanation cites sign 5.16 and zigzag marking 1.17, but the picture shows neither; it shows the indicated car standing in front of a pink car at a side exit. Answer "No" still fits the blocking rule of point 84 (#470). Not used in the lesson or its sources.
+- #516: explanation says the car is "at right angles" to the edge; the picture shows it with its wheels on the kerb, the same scene read that way in #1083 and #1089. It also calls the red van a truck. Answer holds.
+- #89: explanation says the indicated place is beyond the end-of-built-up-area sign; in the picture the car is about level with the sign.
+- #89 vs #489: same layout of sign 3.28 before an end-of-built-up-area sign. #89 ends the sign's zone at the town sign; #489 says the zone "begins right here" at that sign. #489's answer rests on point 82 anyway.
+- #124: Persian explanation names signs 3.29 and 3.30 with «توقف» (stopping) instead of «پارک»; English says no parking.
+- #500: the picture draws zigzag marking 1.17 in red. The colour should be checked against the markings annex.
+- #488: picture marks 3 m twice, but the explanation doesn't use either figure. The bus is also inside the 5 m zone before the crossing.
+- #23, #11 vs assets/signs/8.2.1.png and 8.2.2.png: the two files look swapped. #23 and the pictures in #99 and #493 give 8.2.2 an up arrow and a distance, which is what 8.2.1.png shows; 8.2.2.png shows an arrow at each end, which #11 gives to 8.2.1. The lesson uses the #493 picture instead.
+- Sign 5.27 has no file in assets/signs and no row in data/signs.csv, so the lesson shows the #512 picture.
+- outline.yaml scope of 03-rules-of-driving/14-pedestrians lists people boarding trams, but no question covers it, so the lesson leaves it out. School buses rest only on point 156 as quoted in #669.

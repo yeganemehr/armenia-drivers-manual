@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="A four-way intersection seen from above. A yellow band marks the main road, which comes from the bottom and bends to the right. Four cars numbered 1 to 4 approach, one on each road">
+  <rect width="640" height="360" fill="#dfe8df"/>
+  <!-- secondary roads -->
+  <rect x="0" y="130" width="640" height="100" fill="#8d99a6"/>
+  <rect x="270" y="0" width="100" height="360" fill="#8d99a6"/>
+  <!-- main road band -->
+  <path d="M320 360 V180 H640" fill="none" stroke="#f7d117" stroke-width="100" stroke-opacity=".8" stroke-linejoin="round"/>
+  <!-- centre lines -->
+  <g stroke="#fff" stroke-width="3" stroke-dasharray="14 12">
+    <line x1="0" y1="180" x2="262" y2="180"/>
+    <line x1="378" y1="180" x2="640" y2="180"/>
+    <line x1="320" y1="0" x2="320" y2="122"/>
+    <line x1="320" y1="238" x2="320" y2="360"/>
+  </g>
+  <!-- cars, each on the right-hand side of its own road -->
+  <rect x="329" y="262" width="32" height="58" rx="7" fill="#2f6fd0"/>
+  <rect x="279" y="40" width="32" height="58" rx="7" fill="#2e9e4f"/>
+  <rect x="456" y="135" width="58" height="32" rx="7" fill="#d3202a"/>
+  <rect x="126" y="193" width="58" height="32" rx="7" fill="#37424d"/>
+  <g fill="#fff" stroke="#37424d" stroke-width="2">
+    <circle cx="345" cy="291" r="14"/>
+    <circle cx="295" cy="69" r="14"/>
+    <circle cx="485" cy="151" r="14"/>
+    <circle cx="155" cy="209" r="14"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" text-anchor="middle" fill="#111">
+    <text x="345" y="297">1</text>
+    <text x="485" y="157">2</text>
+    <text x="295" y="75">3</text>
+    <text x="155" y="215">4</text>
+  </g>
+</svg>

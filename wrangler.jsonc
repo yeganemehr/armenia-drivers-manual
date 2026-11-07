@@ -1,0 +1,5 @@
+{
+	"name": "armenia-drivers-manual",
+	"compatibility_date": "2026-11-06",
+	"assets": { "directory": "./dist", "not_found_handling": "404-page" }
+}

@@ -1,0 +1,258 @@
+chapters:
+- id: 00-start-here
+  en: Start Here
+  fa: از اینجا شروع کنید
+  sections:
+  - id: 01-how-to-use
+    en: How to Use This Book
+    fa: راهنمای استفاده از کتاب
+    scope: authored, no questions
+  - id: 02-the-exam
+    en: The Theory Exam
+    fa: آزمون نظری
+    scope: authored, no questions
+- id: 01-foundations
+  en: Foundations
+  fa: مبانی
+  sections:
+  - id: 01-road-terms
+    en: Parts of the Road
+    fa: اجزای راه
+    scope: road, carriageway, lane, intersection, dividing strip, pavement, main road definition
+  - id: 02-people-vehicle-terms
+    en: People and Vehicles
+    fa: افراد و وسایل نقلیه
+    scope: driver, passenger, pedestrian, vehicle types, masses
+  - id: 03-action-terms
+    en: Actions on the Road
+    fa: کارها در راه
+    scope: stopping, parking, forced stop, giving way, manoeuvre, turn, overtaking, visibility terms
+  - id: 04-licences
+    en: Licences and Categories
+    fa: گواهینامه و رده‌ها
+    scope: licence categories, minimum ages, validity, medical fitness, who may drive what
+  - id: 05-duties-documents
+    en: Your Duties and Documents
+    fa: وظایف و مدارک شما
+    scope: general duties of drivers, passengers and pedestrians; documents to carry; insurance; obeying officers; penalties
+      and legal responsibility
+- id: 02-reading-the-road
+  en: Reading the Road
+  fa: خواندن راه
+  sections:
+  - id: 01-traffic-lights
+    en: Traffic Lights
+    fa: چراغ راهنمایی
+    scope: meanings of lights, arrows, additional sections, flashing, tram signals, who goes first because of a light
+  - id: 02-traffic-officers
+    en: Traffic Officers
+    fa: افسران راهنمایی
+    scope: hand signals of a traffic officer; officer overrides lights and signs
+  - id: 03-warning-signs
+    en: Warning Signs
+    fa: تابلوهای هشداردهنده
+    scope: 'family 1 signs: what they mean, where they are placed'
+  - id: 04-priority-signs
+    en: Priority Signs
+    fa: تابلوهای حق تقدم
+    scope: 'family 2 signs: meaning, when asked about the sign itself rather than a passing order'
+  - id: 05-prohibitory-signs
+    en: Prohibitory Signs
+    fa: تابلوهای ممنوعیت
+    scope: 'family 3 signs: meaning, coverage, where the ban ends'
+  - id: 06-mandatory-signs
+    en: Mandatory Signs
+    fa: تابلوهای دستوری
+    scope: family 4 signs
+  - id: 07-special-regulation-signs
+    en: Special Regulation Signs
+    fa: تابلوهای مقررات ویژه
+    scope: 'family 5 signs: one-way, residential zone, bus lanes, built-up area start and end, pedestrian crossing signs'
+  - id: 08-information-service-signs
+    en: Information and Service Signs
+    fa: تابلوهای اطلاعاتی و خدماتی
+    scope: families 6 and 7
+  - id: 09-additional-plates
+    en: Additional Plates
+    fa: تابلوهای تکمیلی
+    scope: family 8 plates changing a sign's meaning
+  - id: 10-road-markings
+    en: Road Markings
+    fa: خط‌کشی راه
+    scope: 'horizontal and vertical markings: what each line permits, crossing rules'
+- id: 03-rules-of-driving
+  en: Rules of Driving
+  fa: مقررات رانندگی
+  sections:
+  - id: 01-signals-horn
+    en: Signalling and the Horn
+    fa: علامت دادن و بوق
+    scope: direction indicators, hand signals, when and how to signal, horn and sound signals
+  - id: 02-moving-off-lanes
+    en: Moving Off and Changing Lanes
+    fa: حرکت و تغییر خط
+    scope: starting to move, lane position, lane changes, side-of-road rules, three-lane roads
+  - id: 03-speed
+    en: Speed
+    fa: سرعت
+    scope: speed limits by road and vehicle, choosing speed, minimum speed, speed-related prohibitions
+  - id: 04-overtaking
+    en: Overtaking and Oncoming Traffic
+    fa: سبقت و ترافیک روبه‌رو
+    scope: overtaking rules and bans, being overtaken, passing obstacles, oncoming traffic on narrow sections and slopes
+  - id: 05-turns
+    en: Turning
+    fa: گردش
+    scope: lane and position for left and right turns, trajectories, turning at intersections
+  - id: 06-u-turns-reversing
+    en: U-turns and Reversing
+    fa: دور زدن و حرکت با دنده عقب
+    scope: where U-turns and reversing are allowed or banned
+  - id: 07-yards-adjacent
+    en: Yards and Side Entrances
+    fa: حیاط‌ها و ورودی‌های کناری
+    scope: entering and leaving adjacent territory, yards, petrol stations
+  - id: 08-equal-roads
+    en: 'Intersections: Equal Roads'
+    fa: 'تقاطع: راه‌های هم‌ارز'
+    scope: passing order with no signs or lights, right-hand rule
+  - id: 09-trams-at-intersections
+    en: Trams at Intersections
+    fa: تراموا در تقاطع
+    scope: passing order with trams at unregulated intersections
+  - id: 10-main-roads
+    en: 'Intersections: Main and Secondary Roads'
+    fa: 'تقاطع: راه اصلی و فرعی'
+    scope: priority signs and road-surface rules, main road runs straight
+  - id: 11-main-road-turns
+    en: When the Main Road Turns
+    fa: وقتی راه اصلی می‌پیچد
+    scope: priority signs with plate 8.13
+  - id: 12-roundabouts
+    en: Roundabouts
+    fa: میدان‌ها
+    scope: roundabout entry, lanes, priority
+  - id: 13-intersection-general
+    en: Entering an Intersection
+    fa: ورود به تقاطع
+    scope: 'general intersection rules: jams, blocking, stopping lines, leaving an intersection'
+  - id: 14-pedestrians
+    en: Pedestrians and Crossings
+    fa: عابران و گذرگاه‌ها
+    scope: pedestrian crossings, giving way to pedestrians, school buses, people boarding trams
+  - id: 15-railway-crossings
+    en: Railway Crossings
+    fa: گذرگاه‌های راه‌آهن
+    scope: behaviour at level crossings, signals, breakdowns on crossings
+  - id: 16-public-transport
+    en: Trams and Public Transport
+    fa: تراموا و حمل‌ونقل عمومی
+    scope: bus and tram stops, public transport lanes, trams outside intersection priority
+  - id: 17-where-to-stop
+    en: Where to Stop and Park
+    fa: کجا توقف و پارک کنیم
+    scope: side of the road, left-side rule, position, long rests, residential parking
+  - id: 18-no-stopping-places
+    en: Places You Must Not Stop
+    fa: مکان‌های ممنوع برای توقف
+    scope: places listed in points 84 and 86 and their distances
+  - id: 19-stopping-signs
+    en: Stopping Signs and Lines
+    fa: تابلوها و خطوط توقف
+    scope: signs 3.27 to 3.30, 6.4, plates and yellow lines that control stopping and parking
+  - id: 20-lights
+    en: Using Your Lights
+    fa: استفاده از چراغ‌ها
+    scope: when to use dipped, main beam, fog, hazard and parking lights; dazzle; the emergency stop sign
+  - id: 21-towing
+    en: Towing
+    fa: یدک‌کشی
+    scope: towing rules, tow bars and ropes, trailers
+  - id: 22-people-loads
+    en: Carrying People and Loads
+    fa: حمل مسافر و بار
+    scope: passengers, children, cargo, load overhang, dangerous goods
+  - id: 23-special-vehicles
+    en: Emergency and Special Vehicles
+    fa: وسایل نقلیه ویژه
+    scope: flashing beacons, convoys, emergency vehicles, motorcycles, bicycles, animal carts
+  - id: 24-motorways-mountains
+    en: Motorways and Mountain Roads
+    fa: آزادراه‌ها و راه‌های کوهستانی
+    scope: motorway bans and rules, mountain roads, steep hills
+- id: 04-safe-driving
+  en: Safe Driving
+  fa: رانندگی ایمن
+  sections:
+  - id: 01-safe-driving
+    en: Safe Driving
+    fa: رانندگی ایمن
+    scope: seat belts and children; other material is extra popups
+- id: 05-your-vehicle
+  en: Your Vehicle
+  fa: خودروی شما
+  sections:
+  - id: 01-brakes-steering
+    en: Brakes and Steering
+    fa: ترمز و فرمان
+    scope: faults in brakes and steering prohibiting operation
+  - id: 02-lights-glass
+    en: Lights and Glass
+    fa: چراغ‌ها و شیشه‌ها
+    scope: faults in external lights, wipers, washers, windows
+  - id: 03-wheels-tyres
+    en: Wheels and Tyres
+    fa: چرخ‌ها و لاستیک‌ها
+    scope: tyre and wheel faults
+  - id: 04-engine-equipment
+    en: Engine and Equipment
+    fa: موتور و تجهیزات
+    scope: engine, exhaust, fuel, seat belts as equipment, required equipment, driving a faulty vehicle home, other faults
+  - id: 05-bus-equipment
+    en: Bus Equipment
+    fa: تجهیزات اتوبوس
+    scope: faults and compulsory equipment specific to buses
+  - id: 06-identification-signs
+    en: Vehicle Identification Signs
+    fa: علائم شناسایی وسایل نقلیه
+    scope: signs fitted to vehicles under point 175
+- id: 06-accidents-first-aid
+  en: Accidents and First Aid
+  fa: تصادف و کمک‌های اولیه
+  sections:
+  - id: 01-after-a-crash
+    en: After a Crash
+    fa: پس از تصادف
+    scope: driver duties at an accident, order of action, moving casualties, who to help first
+  - id: 02-bleeding-wounds
+    en: Bleeding and Wounds
+    fa: خونریزی و زخم‌ها
+    scope: bleeding, tourniquets, wounds, foreign bodies, chest and abdominal injuries, head injuries, nosebleeds
+  - id: 03-fractures-burns
+    en: Fractures and Burns
+    fa: شکستگی و سوختگی
+    scope: fractures, immobilisation, burns, frostbite, electric shock
+  - id: 04-unconscious-casualty
+    en: The Unconscious Casualty
+    fa: مصدوم بیهوش
+    scope: pulse, breathing, recovery position, resuscitation, seizures, fainting
+- id: 07-appendices
+  en: Appendices
+  fa: پیوست‌ها
+  sections:
+  - id: 01-sign-gallery
+    en: Sign Gallery
+    fa: گالری تابلوها
+    scope: generated, no questions
+  - id: 02-key-numbers
+    en: Key Numbers
+    fa: اعداد کلیدی
+    scope: authored, no questions
+  - id: 03-glossary
+    en: Glossary
+    fa: واژه‌نامه
+    scope: generated, no questions
+  - id: 04-question-index
+    en: Question Index
+    fa: فهرست پرسش‌ها
+    scope: generated, no questions
