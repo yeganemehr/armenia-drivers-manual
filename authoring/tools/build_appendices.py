@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Generate the sign gallery, glossary and question index into the lessons' 07-appendices/."""
-import csv, re, sqlite3
+import csv, json, re, sqlite3
 from collections import Counter, defaultdict
 from pathlib import Path
-import yaml
 from build import DATA, DB, LESSONS, OUTLINE, fix_fa, load_terms
 
 CHAPTER = LESSONS / "{lang}/07-appendices"
@@ -75,7 +74,7 @@ def glossary():
 
 
 def index():
-    outline = yaml.safe_load(open(OUTLINE, encoding="utf8"))
+    outline = json.load(open(OUTLINE, encoding="utf8"))
     assigned = defaultdict(list)
     for row in csv.DictReader(open(DATA / "assignments.csv", encoding="utf8", newline="")):
         if not row["note"].startswith("DUP of"):

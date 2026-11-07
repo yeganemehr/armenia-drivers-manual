@@ -8,7 +8,7 @@ hosted on Cloudflare Workers.
 - `src/content/assets/`: signs, question images and diagrams. Image credits are in `CREDITS.md` there.
 - `src/content/docs/`: generated. Lessons plus practice questions from the database. Never edit it.
 - `authoring/`: what produces the book: the question database (`res/`), term lists and question assignments
-  (`data/`), scripts (`tools/`), writing rules (`docs/`), chapter order (`outline.yaml`) and open
+  (`data/`), scripts (`tools/`), writing rules (`docs/`), chapter order (`outline.json`) and open
   items (`REVIEW.md`).
 
 ## Commands
@@ -19,7 +19,7 @@ npm run check    # validate the generated pages and dist/; run after build
 npm run preview  # serve dist/ locally
 npm run deploy   # build, check and publish to Cloudflare
 ```
-Generating the pages needs Python 3 with PyYAML.
+Generating the pages needs Python 3.
 
 ## Markup the site relies on
 - Lessons use raw `<details class="extra">` (popups) and `<details class="answer">` (hidden answers), with

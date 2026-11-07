@@ -9,7 +9,7 @@ structure and depth.
 1. List your questions: rows in `data/assignments.csv` for the section. Skip rows noted `DUP of`.
 2. Read every assigned question in full from `res/assets_db_questions.sqlite`: question, options, answer,
    explanation. Look at images with the Read tool when the text depends on them.
-3. Write `src/content/lessons/en/<chapter>/<section>.md`, then `src/content/lessons/fa/<chapter>/<section>.md`. Filenames come from `outline.yaml`.
+3. Write `src/content/lessons/en/<chapter>/<section>.md`, then `src/content/lessons/fa/<chapter>/<section>.md`. Filenames come from `outline.json`.
 4. Teach everything the questions test, so a reader who studies the lesson can answer them. Group by idea.
    Don't retell questions one by one.
 5. Finish with `{{practice}}` on its own line. Never type practice questions.

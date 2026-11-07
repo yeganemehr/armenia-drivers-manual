@@ -5,13 +5,12 @@ Practice questions always come from the database, so they can't drift from it.
 """
 import csv, json, re, shutil, sqlite3, sys
 from pathlib import Path
-import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 AUTHORING = ROOT / "authoring"
 DATA = AUTHORING / "data"
 DB = AUTHORING / "res/assets_db_questions.sqlite"
-OUTLINE = AUTHORING / "outline.yaml"
+OUTLINE = AUTHORING / "outline.json"
 CONTENT = ROOT / "src/content"
 LESSONS = CONTENT / "lessons"
 DOCS = CONTENT / "docs"  # generated
@@ -119,7 +118,7 @@ def render_practice(ids, rows, lang, terms):
 
 
 def main():
-    outline = yaml.safe_load(open(OUTLINE, encoding="utf8"))
+    outline = json.load(open(OUTLINE, encoding="utf8"))
     assignments = load_assignments()
     terms = load_terms()
     con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)

@@ -2,9 +2,8 @@ import { readFileSync } from 'node:fs';
 import { satteri } from '@astrojs/markdown-satteri';
 import starlight from '@astrojs/starlight';
 import { defineConfig } from 'astro/config';
-import { parse } from 'yaml';
 
-const { chapters } = parse(readFileSync(new URL('./authoring/outline.yaml', import.meta.url), 'utf8'));
+const { chapters } = JSON.parse(readFileSync(new URL('./authoring/outline.json', import.meta.url), 'utf8'));
 
 // Lessons stay plain Markdown, so the site-only differences are applied here.
 const bookMarkdown = {
@@ -23,7 +22,7 @@ const bookMarkdown = {
 };
 
 export default defineConfig({
-	site: 'https://armenia-drivers-manual.ygnmehr.workers.dev',
+	site: 'https://armenia-drivers-manual.yeganemehr.net',
 	markdown: { processor: satteri({ mdastPlugins: [bookMarkdown] }) },
 	redirects: { '/': '/en/' },
 	integrations: [

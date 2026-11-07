@@ -4,10 +4,9 @@
 Default mode checks what exists, so it works mid-way. --final also requires every
 section, every question and every image to be used.
 """
-import csv, re, sqlite3, sys
+import csv, json, re, sqlite3, sys
 from collections import Counter
 from pathlib import Path
-import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build import CONTENT, DATA, DB, DOCS, OUTLINE, built_up_only, fix_fa, load_terms
@@ -40,7 +39,7 @@ def shape(body, lang):
 def main():
     con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
     answers = dict(con.execute("select id, cast(answer as int) from questions"))
-    outline = yaml.safe_load(open(OUTLINE, encoding="utf8"))
+    outline = json.load(open(OUTLINE, encoding="utf8"))
     valid = [f'{c["id"]}/{s["id"]}' for c in outline["chapters"] for s in c["sections"]]
 
     rows = list(csv.DictReader(open(DATA / "assignments.csv", encoding="utf8", newline="")))
