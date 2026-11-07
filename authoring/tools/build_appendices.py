@@ -42,7 +42,8 @@ def persian_names(con, terms):
 def write(lang, name, title, lines):
     path = Path(str(CHAPTER).format(lang=lang)) / name
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(f"---\ntitle: {title}\nsources: []\n---\n\n# {title}\n\n" + "\n".join(lines) + "\n", encoding="utf8")
+    # editUrl: these files are gitignored, so there is nothing on GitHub to edit.
+    path.write_text(f"---\ntitle: {title}\nsources: []\neditUrl: false\n---\n\n# {title}\n\n" + "\n".join(lines) + "\n", encoding="utf8")
 
 
 def gallery(rows, fa_names):

@@ -14,6 +14,7 @@ OUTLINE = AUTHORING / "outline.json"
 CONTENT = ROOT / "src/content"
 LESSONS = CONTENT / "lessons"
 DOCS = CONTENT / "docs"  # generated
+EDIT_URL = "https://github.com/yeganemehr/armenia-drivers-manual/edit/master/src/content/lessons"
 IMAGES = "../../../assets/questions"
 UI = {
     "en": {"heading": "Practice questions", "question": "Question", "show": "Show answer", "correct": "Correct"},
@@ -136,7 +137,11 @@ def main():
                 practice = render_practice(assignments.get(key, []), rows, lang, terms)
                 out = DOCS / lang / f"{key}.md"
                 out.parent.mkdir(parents=True, exist_ok=True)
-                out.write_text(src.read_text(encoding="utf8").replace("{{practice}}", practice), encoding="utf8")
+                text = src.read_text(encoding="utf8").replace("{{practice}}", practice)
+                # Starlight's editLink would point at this gitignored output, so link to the lesson instead.
+                if "\neditUrl:" not in text:
+                    text = text.replace("---\n", f"---\neditUrl: {EDIT_URL}/{lang}/{key}.md\n", 1)
+                out.write_text(text, encoding="utf8")
                 built += 1
     for lang in UI:
         lines = ["---", f'title: {TITLE[lang]}', "---", "", f'# {TITLE[lang]}', ""]
